@@ -38,11 +38,10 @@ a {
 }
 h1 {
     margin-top: 0;
-    margin-bottom: 100px;
     padding-top: 15px;
     font-family: satisfy, sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 62px;
     color: #fe6b6b;
     text-align: center;
@@ -102,6 +101,36 @@ ul {
     display: inline-block;
     width: 75%;
 }
+
+.scrollButton {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+
+
+button {
+    border: 1px solid #2c8dc4;
+    border-radius: 12px;
+    background-color: white;
+    color: #2c8dc4;
+    padding: 10px 22px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.heroButton: hover {
+    background-color: #2c8dc4;
+    color: white; 
+}
+
+
+
 
 /*start of My Skills Section*/
 
